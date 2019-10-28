@@ -1,0 +1,16 @@
+body {
+    background-color: #2d2d37;
+    color: white;
+}
+
+.item.completed {
+    text-decoration: line-through;
+    background-color: crimson;
+}
+
+.item {
+    background-color: cadetblue;
+    width: 45%;
+    text-align: left;
+    cursor: pointer;
+}
