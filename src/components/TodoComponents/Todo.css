@@ -3,9 +3,10 @@ body {
     color: white;
 }
 
-.item.completed {
-    text-decoration: line-through;
-    background-color: crimson;
+.completed {
+    text-decoration: line-through red;
+
+    
 }
 
 .item {
@@ -13,4 +14,6 @@ body {
     width: 45%;
     text-align: left;
     cursor: pointer;
+    text-align: center;
+    border-radius: 2px;
 }
